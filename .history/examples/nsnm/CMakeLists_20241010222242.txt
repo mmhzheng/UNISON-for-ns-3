@@ -1,0 +1,11 @@
+build_example(
+  NAME dctcp-example
+  SOURCE_FILES dctcp-example.cc
+  LIBRARIES_TO_LINK
+    ${libcore}
+    ${libnetwork}
+    ${libinternet}
+    ${libpoint-to-point}
+    ${libapplications}
+    ${libtraffic-control}
+)
